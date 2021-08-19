@@ -1,0 +1,58 @@
+.halaman-utama {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 100%;
+  height: 100vh;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  background: url(/asset/images/jakartaCityScape.png);
+  background-position: center;
+  background-size: 100vh 100vh;
+}
+
+.halaman-utama h1 {
+  font-size: 5em;
+  font-style: italic;
+  letter-spacing: .1em;
+  line-height: 0;
+}
+
+.halaman-utama h1 span {
+  font-size: 3em;
+}
+
+.halaman-utama h2 {
+  text-align: right;
+  font-size: 1em;
+  letter-spacing: .7em;
+  line-height: 0;
+}
+
+.halaman-utama p {
+  text-align: left;
+  font-size: 1em;
+  letter-spacing: .3em;
+  line-height: 20px;
+  padding-left: 4.8em;
+  margin: 0;
+}
+
+.halaman-utama .talk {
+  margin: 3em 0 0 7em;
+  color: #fefefe;
+  border-radius: 6px;
+  border: 5px #fefefe solid;
+  background-color: rgba(0, 0, 0, 0.9);
+  width: 20em;
+  padding: .8em;
+  letter-spacing: .3em;
+  cursor: pointer;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.talk:hover {
+  background-color: #1d1818;
+}
+/*# sourceMappingURL=halamanPertama.css.map */
