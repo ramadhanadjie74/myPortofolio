@@ -6,7 +6,7 @@
   display: -ms-grid;
   display: grid;
   place-items: center;
-  background: url(/asset/images/jakartaCityScape.png);
+  background: url(../../asset/images/jakartaCityScape.png);
   background-position: center;
   background-size: 100vh 100vh;
 }
