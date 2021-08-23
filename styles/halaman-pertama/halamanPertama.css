@@ -12,40 +12,41 @@
 }
 
 .halaman-utama h1 {
-  font-size: 5em;
+  font-size: 4em;
   font-style: italic;
+  text-align: center;
   letter-spacing: .1em;
   line-height: 0;
 }
 
 .halaman-utama h1 span {
-  font-size: 3em;
+  font-size: 2em;
 }
 
 .halaman-utama h2 {
-  text-align: right;
+  text-align: center;
   font-size: 1em;
-  letter-spacing: .7em;
-  line-height: 0;
+  letter-spacing: .4em;
+  margin: 0 0 0 4rem;
+  padding: 0;
 }
 
 .halaman-utama p {
   text-align: left;
-  font-size: 1em;
-  letter-spacing: .3em;
-  line-height: 20px;
-  padding-left: 4.8em;
-  margin: 0;
+  font-size: .7em;
+  letter-spacing: .1em;
+  line-height: 15px;
+  margin: 0 0 0 4.2rem;
 }
 
 .halaman-utama .talk {
-  margin: 3em 0 0 7em;
+  margin: 3em 0 0 6em;
   color: #fefefe;
   border-radius: 6px;
   border: 5px #fefefe solid;
   background-color: rgba(0, 0, 0, 0.9);
-  width: 20em;
-  padding: .8em;
+  width: 15em;
+  padding: .4em;
   letter-spacing: .3em;
   cursor: pointer;
   font-weight: 700;
