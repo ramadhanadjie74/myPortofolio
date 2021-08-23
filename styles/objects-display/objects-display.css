@@ -1,6 +1,15 @@
 .objects .arrowDown {
   position: absolute;
-  top: 20em;
+  top: 65%;
   left: 1em;
+  z-index: 1;
+}
+
+.objects .pageSplit {
+  position: absolute;
+  top: 78%;
+  z-index: 1;
+  left: -10em;
+  width: 90vh;
 }
 /*# sourceMappingURL=objects-display.css.map */
