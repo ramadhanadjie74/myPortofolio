@@ -4,14 +4,16 @@
 
 .objects .arrowDown {
   position: relative;
-  top: -30em;
-  left: 1em;
+  top: -22em;
+  left: .5em;
 }
 
 .objects .pageSplit {
   position: relative;
   top: -5em;
   left: -10em;
+  width: 100vh;
+  height: 100%;
   z-index: 0;
 }
 

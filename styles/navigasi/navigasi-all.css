@@ -5,6 +5,7 @@ body {
   color: #fefefe;
   background-color: #03030C;
   font-family: 'Montserrat', sans-serif;
+  overflow-x: hidden;
 }
 
 a {

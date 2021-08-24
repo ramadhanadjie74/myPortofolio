@@ -2,15 +2,16 @@
     position: absolute;
     .arrowDown{
         position: relative;
-        top: -30em;
-        left: 1em;
+        top: -22em;
+        left: .5em;
     }
     .pageSplit{
         position: relative;
         top: -5em;
         left: -10em;
-        // width: 100%;
-        // height: 100%;
+        // width: 90vh;
+        width: 100vh;
+        height: 100%;
         z-index: 0;
     }
 
