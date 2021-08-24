@@ -32,13 +32,15 @@ img {
     position: fixed;
     width: 100%;
     top: 0;
+    z-index: 5;
 
     .burger-menu{
         cursor: pointer;
-        z-index: 10;
+        z-index: 6;
         margin-bottom: .75rem;
         .burger-logo{
             // cursor: pointer;
+            
             width: 2.5rem;
             height: 5px;
             background-color: #fefefe;
@@ -68,40 +70,34 @@ img {
         display: flex;
         justify-content: space-between;
         align-items: center;
+        // z-index: 3;
 
         .burger-nav{
+            // z-index: 4;
             .navList{
                 visibility: hidden;
                 text-align: center;
                 // display: none;
                 opacity: 0;
-                position: absolute;
+                position: fixed;
                 width: 100%;
                 height: 100vh;
-                z-index: 3;
                 transition: all linear 500ms;
                 top: 0;
                 left: 0;
                 background-color: rgba($color: #03030C, $alpha: .9);
             
             }
-            
-            // .close{
-            //     position: absolute;
-            //     right: 2.5em;
-            //     top: 1em;
-            //     cursor: pointer;
-
-            // }
-
 
             .burger-item {
                 margin-top: 10em;
+                
                 li{
                     font-style: italic;
                     font-weight: 550;
                     font-size: 2.5em;
                     margin-top: 1em;
+                    z-index: 8;
                     letter-spacing: .2em;
                 }
             }

@@ -1,15 +1,48 @@
 .objects{
+    position: absolute;
     .arrowDown{
-        position: absolute;
-        top: 65%;
+        position: relative;
+        top: -30em;
         left: 1em;
-        z-index: 1;
     }
     .pageSplit{
-        position: absolute;
-        top: 78%;
-        z-index: 1;
+        position: relative;
+        top: -5em;
         left: -10em;
-        width: 90vh;
+        // width: 90vh;
+        width: 100vh;
+        height: 100%;
+        z-index: 0;
+    }
+
+    .page-pointer{
+        position: fixed;
+        top: 95%;
+        left: 42%;
+        z-index: 5;
+        ul{
+            display: flex;
+            li {
+                margin-left: 1em;
+
+                a {
+                    cursor: pointer; 
+                    .line{
+                        width: 3px;
+                        height: 15px;
+                        background-color: #fefefe;
+                    }
+                }
+               
+            }
+
+        }
+       
+    }
+    .segi3{
+        position: absolute;
+        z-index: -1;
+        top: 70%;
+        left: 10%;
     }
 }

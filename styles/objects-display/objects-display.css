@@ -1,15 +1,53 @@
-.objects .arrowDown {
+.objects {
   position: absolute;
-  top: 65%;
+}
+
+.objects .arrowDown {
+  position: relative;
+  top: -30em;
   left: 1em;
-  z-index: 1;
 }
 
 .objects .pageSplit {
-  position: absolute;
-  top: 78%;
-  z-index: 1;
+  position: relative;
+  top: -5em;
   left: -10em;
-  width: 90vh;
+  width: 100vh;
+  height: 100%;
+  z-index: 0;
+}
+
+.objects .page-pointer {
+  position: fixed;
+  top: 95%;
+  left: 42%;
+  z-index: 5;
+}
+
+.objects .page-pointer ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.objects .page-pointer ul li {
+  margin-left: 1em;
+}
+
+.objects .page-pointer ul li a {
+  cursor: pointer;
+}
+
+.objects .page-pointer ul li a .line {
+  width: 3px;
+  height: 15px;
+  background-color: #fefefe;
+}
+
+.objects .segi3 {
+  position: absolute;
+  z-index: -1;
+  top: 70%;
+  left: 10%;
 }
 /*# sourceMappingURL=objects-display.css.map */

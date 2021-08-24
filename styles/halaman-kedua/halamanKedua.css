@@ -1,0 +1,102 @@
+.halaman2 {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+}
+
+.halaman2 h2 {
+  text-align: right;
+  text-transform: uppercase;
+  letter-spacing: 1em;
+  font-style: italic;
+  font-size: 2rem;
+}
+
+.halaman2 .panah {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  position: absolute;
+  top: 6rem;
+  right: 10px;
+  cursor: pointer;
+  z-index: 3;
+}
+
+.halaman2 .content-container {
+  padding: 1rem;
+}
+
+.halaman2 .content-container .kiri {
+  position: relative;
+}
+
+.halaman2 .content-container .kiri .content1 .contentImg1 {
+  width: 14rem;
+  height: 14rem;
+  background-image: url(../../asset/images/robotProject.JPG);
+}
+
+.halaman2 .content-container .kiri .content1 .more-info {
+  position: absolute;
+  left: .5rem;
+  top: .5rem;
+  font-style: italic;
+  font-weight: 600;
+  text-shadow: 2px 2px 8px #03030c;
+}
+
+.halaman2 .content-container .kiri .content1 .more-info a {
+  cursor: pointer;
+}
+
+.halaman2 .content-container .kiri .content1 h3 {
+  margin: 0;
+  padding: 0;
+  font-style: italic;
+}
+
+.halaman2 .content-container .kiri .content1 p {
+  margin: 0;
+  padding: 0;
+}
+
+.halaman2 .kanan {
+  margin-top: 1em;
+  position: relative;
+  text-align: right;
+}
+
+.halaman2 .kanan .content2 .contentImg2 {
+  width: 14rem;
+  height: 14rem;
+}
+
+.halaman2 .kanan .content2 .more-info {
+  position: absolute;
+  right: .5rem;
+  top: .5rem;
+  font-style: italic;
+  font-weight: 600;
+  text-shadow: 2px 2px 8px #03030c;
+}
+
+.halaman2 .kanan .content2 .more-info a {
+  cursor: pointer;
+}
+
+.halaman2 .kanan .content2 h3 {
+  margin: 0;
+  padding: 0;
+  font-style: italic;
+}
+
+.halaman2 .kanan .content2 p {
+  margin: 0;
+  padding: 0;
+}
+/*# sourceMappingURL=halamanKedua.css.map */
