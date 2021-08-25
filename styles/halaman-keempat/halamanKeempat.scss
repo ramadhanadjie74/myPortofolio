@@ -1,0 +1,39 @@
+.halaman4{
+    width: 100%;
+    height: 100vh;
+    padding: 0 1em 0;
+    box-sizing: border-box;
+
+    h2 {
+        text-transform: uppercase;
+        letter-spacing: .8rem;
+        text-align: center;
+        margin: 2rem 0 0 0;
+        
+    }
+    h1{
+        text-transform: uppercase;
+        letter-spacing: 1rem;
+        text-align: right;
+        font-size: 4em;
+        margin: 3rem 0 0 0;
+    }
+    .kontakDes{
+        font-size: .8rem;
+        text-align: center;
+        letter-spacing: .3rem;
+        font-weight: 550;
+        span{
+            display: block;
+        }
+    }
+    .madeUsing{
+        text-align: center;
+    }
+    ul{
+        display: flex;
+        // align-items: flex-end;
+        // align-content: center;
+        justify-content: space-around;
+    }
+}

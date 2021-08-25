@@ -1,0 +1,46 @@
+.halaman4 {
+  width: 100%;
+  height: 100vh;
+  padding: 0 1em 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.halaman4 h2 {
+  text-transform: uppercase;
+  letter-spacing: .8rem;
+  text-align: center;
+  margin: 2rem 0 0 0;
+}
+
+.halaman4 h1 {
+  text-transform: uppercase;
+  letter-spacing: 1rem;
+  text-align: right;
+  font-size: 4em;
+  margin: 3rem 0 0 0;
+}
+
+.halaman4 .kontakDes {
+  font-size: .8rem;
+  text-align: center;
+  letter-spacing: .3rem;
+  font-weight: 550;
+}
+
+.halaman4 .kontakDes span {
+  display: block;
+}
+
+.halaman4 .madeUsing {
+  text-align: center;
+}
+
+.halaman4 ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+/*# sourceMappingURL=halamanKeempat.css.map */

@@ -1,0 +1,22 @@
+.halaman3 {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 100%;
+  height: 120vh;
+  margin: 0;
+  padding: 1em;
+}
+
+.halaman3 h2 {
+  text-transform: uppercase;
+  letter-spacing: 1rem;
+  font-style: italic;
+}
+
+.halaman3 p {
+  text-align: left;
+  font-size: 1em;
+  padding: 0 .5em 0;
+  margin-top: 3em;
+}
+/*# sourceMappingURL=halamanKetiga.css.map */
