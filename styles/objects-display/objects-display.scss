@@ -7,12 +7,18 @@
     }
     .pageSplit{
         position: relative;
-        top: -5em;
-        left: -10em;
+        top: -2em;
+        left: 0;
         // width: 90vh;
-        width: 100vh;
-        height: 100%;
-        z-index: 0;
+        background-image: url(../../asset/images/pageSpliter.png);
+        // width: 343px;
+        // height: 50px;
+        background-position: center;
+        background-size: 400px 50px;
+        background-repeat: no-repeat;
+        width: 349px;
+        height: 50px;
+        z-index: 2;
     }
 
     .page-pointer{
