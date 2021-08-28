@@ -1,9 +1,12 @@
+@import url(../navigasi/navigasi-all.css) html;
 .halaman2{
     position: relative;
     width: 100%;
-    height: 110vh;
+    height: 120vh;
     top: 0;
     margin-top: 100px;
+    scroll-snap-align: start;
+
 
     h2{
         text-align: right;
@@ -25,13 +28,15 @@
     .content-container {
         padding: 1rem;
         .kiri{
+            // width: fit-content;
             position: relative;
             .content1 {
                .contentImg1 {
                 width: 14rem;
                 height: 14rem;
                 background-image: url(../../asset/images/robotProject.JPG);
-                
+                transition: all 0.5s;
+                cursor: pointer;
                 }
                 .more-info{
                     position: absolute;
@@ -95,6 +100,44 @@
             
         }
         
+    }
+
+    .kiri:before  
+  {
+    content:"";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 14rem;
+    height: 14rem;
+    border-radius: 4px;
+    background: #fff;
+    transition: 0.5s;
+    z-index:-1;
+  }
+
+  .kanan:before  
+  {
+    content:"";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 14rem;
+    height: 14rem;
+    border-radius: 4px;
+    background: #fff;
+    transition: 0.5s;
+    z-index:-1;
+  }
+
+
+  .kiri:hover:before{
+  transform: rotate(20deg);
+  box-shadow: 0 2px 20px 20px #C93508;
+  }
+  .kanan:hover:before{
+    transform: rotate(20deg);
+    box-shadow: 0 2px 20px 20px #C93508;
     }
 
 }

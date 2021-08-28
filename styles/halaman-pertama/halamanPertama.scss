@@ -1,5 +1,5 @@
+@import url(../navigasi/navigasi-all.css) html;
 $text-color: #fefefe;
-
 .halaman-utama{
     box-sizing: border-box;
     width: 100%;
@@ -9,7 +9,9 @@ $text-color: #fefefe;
     background: url(../../asset/images/JakartaCityscapeG.jpg);
     background-position: center;
     background-repeat: no-repeat;
-    background-size:  130%;
+    background-size:  150%;
+    scroll-snap-align: start;
+    // margin: -5px;
 
     h1 {
        font-size: 4em;

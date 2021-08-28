@@ -2,15 +2,22 @@
 
 $text-color: #fefefe;
 
-
-html, body {
+body{
     margin: 0;
     padding: 0;
+}
+
+html {
     color: $text-color;
     background-color: #03030C;
     font-family: 'Montserrat', sans-serif;
-    // overflow: hidden;
+    overflow: hidden;
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    scroll-padding-top: 5rem;
+    scroll-behavior: smooth;
 }
+
 
 a {
     text-decoration: none;
@@ -153,13 +160,14 @@ img {
 }
 
 .item a:hover{
+    transition: 500ms all ease-in-out;
     color: #fff;
   text-shadow:
     /* White glow */
     0 0 7px #fff,
     0 0 10px #fff,
     0 0 21px #fff,
-    /* Green glow */
+    /* Orange glow */
     0 0 42px #FF5F1F,
     0 0 82px #FF5F1F,
     0 0 92px #FF5F1F,

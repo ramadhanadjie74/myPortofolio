@@ -1,3 +1,4 @@
+@import url(../navigasi/navigasi-all.css) html;
 .halaman-utama {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -9,7 +10,8 @@
   background: url(../../asset/images/JakartaCityscapeG.jpg);
   background-position: center;
   background-repeat: no-repeat;
-  background-size: 130%;
+  background-size: 150%;
+  scroll-snap-align: start;
 }
 
 .halaman-utama h1 {

@@ -1,9 +1,12 @@
+@import url(../navigasi/navigasi-all.css) html;
 .halaman3 {
     box-sizing: border-box;
     width: 100%;
     height: 120vh;
     margin: 0;
     padding: 1em;
+    scroll-snap-align: start;
+
 
     h2{
         text-transform: uppercase;

@@ -1,8 +1,12 @@
+@import url(../navigasi/navigasi-all.css) html;
 .halaman4{
     width: 100%;
     height: 100vh;
     padding: 0 1em 0;
     box-sizing: border-box;
+    scroll-snap-align: start;
+    position: relative;
+
 
     h2 {
         text-transform: uppercase;
@@ -18,7 +22,17 @@
         font-size: 4em;
         margin: 3rem 0 0 0;
     }
+    .mail{
+        position: absolute;
+        top: 45%;
+        left: 45%;
+        img{
+            width: 50px;
+            height: 50px;
+        }
+    }
     .kontakDes{
+        margin-top: 13rem;
         font-size: .8rem;
         text-align: center;
         letter-spacing: .3rem;

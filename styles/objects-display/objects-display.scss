@@ -24,18 +24,32 @@
     .page-pointer{
         position: fixed;
         top: 93%;
-        left: 45%;
+        // left: 45%;
         z-index: 5;
+        width: 100%;
+        display: grid;
         ul{
+            position: relative;
+            width: 15%;
+            left: 45%;
+            // transform: rotate(180deg) ;
             display: flex;
+            justify-content: space-around;
             li {
+                transform: scale(1, -1);
                 a {
-                    margin-left: 1em;
+                    // margin-left: 1em;
                     cursor: pointer; 
                     .line{
                         width: 3px;
                         height: 15px;
                         background-color: #fefefe;
+                        transition: height;
+                        transition: 500ms height ease-in-out;
+                    }
+                    .active-bar{   
+                        height: 20px;
+                        // transition: 500ms height ease-in-out;
                     }
                 }
                

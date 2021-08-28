@@ -24,18 +24,29 @@
 .objects .page-pointer {
   position: fixed;
   top: 93%;
-  left: 45%;
   z-index: 5;
+  width: 100%;
+  display: -ms-grid;
+  display: grid;
 }
 
 .objects .page-pointer ul {
+  position: relative;
+  width: 15%;
+  left: 45%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.objects .page-pointer ul li {
+  -webkit-transform: scale(1, -1);
+          transform: scale(1, -1);
 }
 
 .objects .page-pointer ul li a {
-  margin-left: 1em;
   cursor: pointer;
 }
 
@@ -43,6 +54,14 @@
   width: 3px;
   height: 15px;
   background-color: #fefefe;
+  -webkit-transition: height;
+  transition: height;
+  -webkit-transition: 500ms height ease-in-out;
+  transition: 500ms height ease-in-out;
+}
+
+.objects .page-pointer ul li a .active-bar {
+  height: 20px;
 }
 
 .objects .segi3 {
