@@ -5,18 +5,23 @@
     height: 120vh;
     margin: 0;
     padding: 1em;
+    position: relative;
     scroll-snap-align: start;
 
+    .about-container{
+        // width: 100%;
+        h2{
+            text-transform: uppercase;
+            letter-spacing: 1rem;
+            font-style: italic;
+        }
+        p {
+            text-align: justify;
+            font-size: 1em;
+            padding: 0 .5em 0;
+            margin-top: 3em;
+        }
+    }
 
-    h2{
-        text-transform: uppercase;
-        letter-spacing: 1rem;
-        font-style: italic;
-    }
-    p {
-        text-align: left;
-        font-size: 1em;
-        padding: 0 .5em 0;
-        margin-top: 3em;
-    }
+   
 }

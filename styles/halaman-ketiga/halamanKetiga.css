@@ -6,17 +6,18 @@
   height: 120vh;
   margin: 0;
   padding: 1em;
+  position: relative;
   scroll-snap-align: start;
 }
 
-.halaman3 h2 {
+.halaman3 .about-container h2 {
   text-transform: uppercase;
   letter-spacing: 1rem;
   font-style: italic;
 }
 
-.halaman3 p {
-  text-align: left;
+.halaman3 .about-container p {
+  text-align: justify;
   font-size: 1em;
   padding: 0 .5em 0;
   margin-top: 3em;

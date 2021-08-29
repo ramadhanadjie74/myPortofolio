@@ -1,3 +1,140 @@
+@media only screen and (min-width: 500px) {
+  .profileImg {
+    position: relative;
+    left: 16%;
+  }
+}
+
+@media only screen and (min-width: 730px) {
+  .halaman-utama {
+    display: block;
+    background-size: 100%;
+  }
+  .halaman-utama .konten-utama {
+    position: absolute;
+    left: 5%;
+    top: 45%;
+  }
+  .halaman-utama .konten-utama h1 {
+    text-align: left;
+    font-size: 5.5em;
+    margin: 0 0 2.3rem;
+  }
+  .halaman-utama .konten-utama h2 {
+    font-size: 2em;
+  }
+  .halaman-utama .konten-utama p {
+    font-size: 1em;
+    margin-left: 3.5rem;
+  }
+  .halaman-utama .konten-utama .talk {
+    position: absolute;
+    top: 120%;
+    left: 22%;
+    width: 17em;
+  }
+  .page-pointer {
+    left: -50% !important;
+    top: 55% !important;
+  }
+  .page-pointer ul {
+    -webkit-transform: rotate(90deg);
+            transform: rotate(90deg);
+  }
+  .arrowDown {
+    top: -16em !important;
+  }
+  .halaman2 {
+    height: 140vh;
+  }
+  .halaman2 .panah {
+    top: 10rem;
+  }
+  .halaman2 .content-container {
+    padding: 4rem;
+  }
+  .halaman2 .content-container .contentImg1 {
+    width: 17rem !important;
+    height: 17rem !important;
+  }
+  .halaman2 .content-container .contentImg2 {
+    width: 17rem !important;
+    height: 17rem !important;
+  }
+  .halaman2 .content-container .kiri:before {
+    content: "";
+    width: 17rem;
+    height: 17rem;
+  }
+  .halaman2 .content-container .kanan:before {
+    content: "";
+    width: 17rem;
+    height: 17rem;
+  }
+  .halaman3 .profileImg {
+    position: absolute;
+    left: 1em;
+    top: 20%;
+  }
+  .halaman3 .p3-container {
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    right: 1em;
+    top: 0;
+    margin-top: 20%;
+  }
+  .halaman3 .p3-container p {
+    font-size: 1.4rem;
+    margin: 0;
+    padding: 0;
+  }
+  .halaman4 {
+    height: 95vh;
+    display: -ms-grid;
+    display: grid;
+    place-items: center;
+  }
+  .halaman4 .page4-container {
+    width: 50%;
+  }
+  .halaman4 .page4-container .mail {
+    left: 46%;
+    top: 55%;
+  }
+}
+
+@media only screen and (min-width: 980px) {
+  .konten-utama .talk {
+    left: 40% !important;
+  }
+  .halaman4 .page4-title {
+    width: 50% !important;
+    margin-left: 25%;
+  }
+  .halaman4 .mail {
+    left: 47% !important;
+  }
+  .halaman2 .content-container {
+    padding: 7rem;
+  }
+  .halaman3 .profileImg {
+    left: 3em;
+  }
+  .halaman3 .p3-container {
+    right: 3em;
+  }
+}
+
+@media only screen and (min-width: 1125px) {
+  .halaman-utama {
+    background-size: 100%;
+  }
+  .halaman-utama .konten-utama .talk {
+    left: 50% !important;
+  }
+}
+
 @media only screen and (max-width: 700px) {
   .wa, .github {
     display: none;

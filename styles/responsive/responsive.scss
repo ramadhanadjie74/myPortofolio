@@ -1,3 +1,166 @@
+@media only screen and (min-width: 500px) {
+    .profileImg{
+        position: relative;
+        left: 16%;
+    }
+}
+
+@media only screen and (min-width: 730px) {
+    .halaman-utama{
+    //   position: relative;
+      display: block;
+      background-size: 100%;
+
+        .konten-utama {
+            position: absolute;
+            left: 5%;
+            top: 45%;
+
+            h1{
+                text-align: left;
+                font-size: 5.5em;
+                margin: 0 0 2.3rem;
+            }
+            h2{
+                font-size: 2em;
+            }
+            p {
+                font-size: 1em;
+                margin-left: 3.5rem;
+            }
+
+            .talk{
+                position: absolute;
+                top: 120%;
+                left: 22%;
+                width: 17em;
+
+            }
+        }
+    }
+    .page-pointer{
+        left: -50% !important;
+        top: 55% !important;
+        ul {
+            transform: rotate(90deg);
+        }
+    }
+    .arrowDown{
+        top: -16em !important;
+    }
+    .halaman2{
+        height: 140vh;
+
+        .panah {
+            top: 10rem;
+        }
+        .content-container {
+            padding: 4rem;
+            .contentImg1 {
+                width: 17rem !important;
+                height: 17rem !important;
+            }
+            .contentImg2 {
+                width: 17rem !important;
+                height: 17rem !important;
+            }
+            .kiri:before  {
+                content:"";
+                width: 17rem;
+                height: 17rem;
+                
+            }
+            .kanan:before  {
+                content:"";
+                width: 17rem;
+                height: 17rem;
+                
+            }
+
+        }
+    }
+
+    .halaman3{
+        .profileImg{
+            position: absolute;
+            left: 1em;
+            top: 20%;
+
+        }
+        .p3-container{
+            width: 50% ;
+            height: 100%;
+            position: absolute;
+            right: 1em;
+            top: 0;
+            margin-top: 20%;
+            
+            p{
+                font-size: 1.4rem;
+                margin: 0;
+                padding: 0;
+            }
+        }
+    }
+    .halaman4{
+        height: 95vh;
+        display: grid;
+        place-items: center;
+        .page4-container{
+            width: 50%;
+            .mail{
+                left: 46%;
+                top: 55%;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 980px) {
+    .konten-utama{
+        .talk{
+            left: 40% !important;
+        }
+    }
+    .halaman4{
+        .page4-title{
+            width: 50% !important;
+            // margin: 0;
+            // padding: 0;
+            margin-left: 25%;
+        }
+        .mail{
+            left: 47% !important;
+        }
+    }
+    .halaman2{
+        .content-container {
+            padding: 7rem;
+        }
+         
+    }
+
+    .halaman3{
+        .profileImg{
+            left: 3em;
+        }
+        .p3-container{
+            right: 3em;
+        }
+    }
+}
+
+@media only screen and (min-width: 1125px) {
+    .halaman-utama{
+        background-size: 100%;
+        .konten-utama{
+            .talk{
+                left: 50% !important;
+            }
+        }
+    }
+}
+
 @media only screen and (max-width: 700px) {
     .wa, .github{
         display: none;
