@@ -46,6 +46,7 @@
   }
   .halaman2 {
     height: 140vh;
+    background-size: 60%;
   }
   .halaman2 .panah {
     top: 10rem;
@@ -71,6 +72,9 @@
     width: 17rem;
     height: 17rem;
   }
+  .halaman3 {
+    background-size: 60%;
+  }
   .halaman3 .profileImg {
     position: absolute;
     left: 1em;
@@ -94,6 +98,7 @@
     display: -ms-grid;
     display: grid;
     place-items: center;
+    background-size: 60%;
   }
   .halaman4 .page4-container {
     width: 50%;
@@ -103,6 +108,9 @@
 @media only screen and (min-width: 980px) {
   .konten-utama .talk {
     left: 40% !important;
+  }
+  .halaman4 {
+    background-size: 40%;
   }
   .halaman4 .page4-title {
     width: 50% !important;
@@ -125,6 +133,12 @@
   }
   .halaman-utama .konten-utama .talk {
     left: 50% !important;
+  }
+  .halaman2 {
+    background-size: 40%;
+  }
+  .halaman3 {
+    background-size: 40%;
   }
 }
 

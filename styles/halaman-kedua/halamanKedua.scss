@@ -38,16 +38,7 @@
             .content1 {
                .contentImg1 {
                 width: 14rem;
-                height: 14rem;
-                background-image: url(../../asset/images/robotProject.JPG);
-                background-blend-mode: multiply;
-                background-size: cover;
-                background-repeat: no-repeat;
-                background-position: 100% 50%;
-                transition: all 0.5s;
-                cursor: pointer;
-                background-color: #ff5f1f;
-               
+                height: 14rem;               
                 }
                 .more-info{
                     position: absolute;
@@ -115,7 +106,7 @@
 
         
     }
-    .contentImg1:before  
+    .kiri:before  
   {
     content:"";
     position: absolute;
@@ -129,7 +120,7 @@
     z-index:-1;
   }
 
-  .contentImg2:before  
+  .kanan:before  
   {
     content:"";
     position: absolute;
@@ -144,22 +135,14 @@
   }
 
 
-  .contentImg1:hover:before{
+  .kiri:hover:before{
   transform: rotate(20deg);
   box-shadow: 0 2px 20px 20px #C93508;
   }
-  .contentImg2:hover:before{
+  .kanan:hover:before{
     transform: rotate(20deg);
     box-shadow: 0 2px 20px 20px #C93508;
     }
-
-    .contentImg1:hover{
-    background-blend-mode: normal;
-    }
-    .contentImg2:hover{
-    background-blend-mode: normal;
-    }
-
 }
 
     

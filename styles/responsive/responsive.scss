@@ -50,7 +50,7 @@
     }
     .halaman2{
         height: 140vh;
-
+        background-size:  60%;
         .panah {
             top: 10rem;
         }
@@ -81,6 +81,7 @@
     }
 
     .halaman3{
+        background-size:  60%;
         .profileImg{
             position: absolute;
             left: 1em;
@@ -106,6 +107,7 @@
         height: 95vh;
         display: grid;
         place-items: center;
+        background-size:  60%;
         .page4-container{
             width: 50%;
             // .mail{
@@ -123,6 +125,7 @@
         }
     }
     .halaman4{
+        background-size:  40%;
         .page4-title{
             width: 50% !important;
             // margin: 0;
@@ -158,6 +161,12 @@
                 left: 50% !important;
             }
         }
+    }
+    .halaman2{
+        background-size:  40%;
+    }
+    .halaman3{
+        background-size:  40%;
     }
 }
 
