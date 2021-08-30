@@ -63,11 +63,4 @@
 .objects .page-pointer ul li a .active-bar {
   height: 20px;
 }
-
-.objects .segi3 {
-  position: absolute;
-  z-index: 0;
-  top: 120%;
-  left: 10%;
-}
 /*# sourceMappingURL=objects-display.css.map */

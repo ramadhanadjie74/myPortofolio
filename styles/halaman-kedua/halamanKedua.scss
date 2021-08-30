@@ -6,6 +6,10 @@
     top: 0;
     margin-top: 100px;
     scroll-snap-align: start;
+    background-image: url(../../asset/images/bgImg-1.png);
+    background-position: 50% 48%;
+    background-repeat: no-repeat;
+    background-size:  100%;
 
 
     h2{
@@ -26,6 +30,7 @@
     }
 
     .content-container {
+        position: relative;
         padding: 1rem;
         .kiri{
             // width: fit-content;
@@ -35,8 +40,14 @@
                 width: 14rem;
                 height: 14rem;
                 background-image: url(../../asset/images/robotProject.JPG);
+                background-blend-mode: multiply;
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: 100% 50%;
                 transition: all 0.5s;
                 cursor: pointer;
+                background-color: #ff5f1f;
+               
                 }
                 .more-info{
                     position: absolute;
@@ -64,45 +75,47 @@
             
         }
 
-    }
-
-    .kanan{
-        margin-top: 1em;
-        position: relative;
-        text-align: right;
-        .content2 {
-           .contentImg2 {
-            width: 14rem;
-            height: 14rem;
-            
-            }
-            .more-info{
-                position: absolute;
-                right: .5rem;
-                top: .5rem;
-                font-style: italic;
-                font-weight: 600;
-                text-shadow: 2px 2px 8px #03030c;
-                a{
-                    cursor: pointer;
-                    
+        .kanan{
+            margin-top: 1em;
+            position: relative;
+            text-align: right;
+            .content2 {
+               .contentImg2 {
+                width: 14rem;
+                height: 14rem;
+                
                 }
-            }
-            h3 {
-                margin: 0;
-                padding: 0;
-                font-style: italic;
-            }
-            p{
-                margin: 0;
-                padding: 0;
+                .more-info{
+                    position: absolute;
+                    right: .5rem;
+                    top: .5rem;
+                    font-style: italic;
+                    font-weight: 600;
+                    text-shadow: 2px 2px 8px #03030c;
+                    a{
+                        cursor: pointer;
+                        
+                    }
+                }
+                h3 {
+                    margin: 0;
+                    padding: 0;
+                    font-style: italic;
+                }
+                p{
+                    margin: 0;
+                    padding: 0;
+                }
+                
             }
             
         }
+
+    
+
         
     }
-
-    .kiri:before  
+    .contentImg1:before  
   {
     content:"";
     position: absolute;
@@ -116,7 +129,7 @@
     z-index:-1;
   }
 
-  .kanan:before  
+  .contentImg2:before  
   {
     content:"";
     position: absolute;
@@ -131,13 +144,20 @@
   }
 
 
-  .kiri:hover:before{
+  .contentImg1:hover:before{
   transform: rotate(20deg);
   box-shadow: 0 2px 20px 20px #C93508;
   }
-  .kanan:hover:before{
+  .contentImg2:hover:before{
     transform: rotate(20deg);
     box-shadow: 0 2px 20px 20px #C93508;
+    }
+
+    .contentImg1:hover{
+    background-blend-mode: normal;
+    }
+    .contentImg2:hover{
+    background-blend-mode: normal;
     }
 
 }

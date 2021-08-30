@@ -36,5 +36,8 @@ window.addEventListener("scroll", () => {
     if (li.classList.contains(current)) {
       li.classList.add("active-bar");
     }
-  });
+  }
+
+  
+  );
 });

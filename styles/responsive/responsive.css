@@ -98,10 +98,6 @@
   .halaman4 .page4-container {
     width: 50%;
   }
-  .halaman4 .page4-container .mail {
-    left: 46%;
-    top: 55%;
-  }
 }
 
 @media only screen and (min-width: 980px) {
@@ -111,9 +107,6 @@
   .halaman4 .page4-title {
     width: 50% !important;
     margin-left: 25%;
-  }
-  .halaman4 .mail {
-    left: 47% !important;
   }
   .halaman2 .content-container {
     padding: 7rem;
@@ -132,6 +125,18 @@
   }
   .halaman-utama .konten-utama .talk {
     left: 50% !important;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .halaman-utama {
+    background-size: 100%;
+  }
+  .halaman-utama .konten-utama .talk {
+    left: 70% !important;
+  }
+  .halaman2 .content-container {
+    padding: 9rem;
   }
 }
 

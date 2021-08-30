@@ -6,6 +6,10 @@
   top: 0;
   margin-top: 100px;
   scroll-snap-align: start;
+  background-image: url(../../asset/images/bgImg-1.png);
+  background-position: 50% 48%;
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
 
 .halaman2 h2 {
@@ -31,6 +35,7 @@
 }
 
 .halaman2 .content-container {
+  position: relative;
   padding: 1rem;
 }
 
@@ -42,9 +47,14 @@
   width: 14rem;
   height: 14rem;
   background-image: url(../../asset/images/robotProject.JPG);
+  background-blend-mode: multiply;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 100% 50%;
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
   cursor: pointer;
+  background-color: #ff5f1f;
 }
 
 .halaman2 .content-container .kiri .content1 .more-info {
@@ -71,18 +81,18 @@
   padding: 0;
 }
 
-.halaman2 .kanan {
+.halaman2 .content-container .kanan {
   margin-top: 1em;
   position: relative;
   text-align: right;
 }
 
-.halaman2 .kanan .content2 .contentImg2 {
+.halaman2 .content-container .kanan .content2 .contentImg2 {
   width: 14rem;
   height: 14rem;
 }
 
-.halaman2 .kanan .content2 .more-info {
+.halaman2 .content-container .kanan .content2 .more-info {
   position: absolute;
   right: .5rem;
   top: .5rem;
@@ -91,22 +101,22 @@
   text-shadow: 2px 2px 8px #03030c;
 }
 
-.halaman2 .kanan .content2 .more-info a {
+.halaman2 .content-container .kanan .content2 .more-info a {
   cursor: pointer;
 }
 
-.halaman2 .kanan .content2 h3 {
+.halaman2 .content-container .kanan .content2 h3 {
   margin: 0;
   padding: 0;
   font-style: italic;
 }
 
-.halaman2 .kanan .content2 p {
+.halaman2 .content-container .kanan .content2 p {
   margin: 0;
   padding: 0;
 }
 
-.halaman2 .kiri:before {
+.halaman2 .contentImg1:before {
   content: "";
   position: absolute;
   top: 0;
@@ -120,7 +130,7 @@
   z-index: -1;
 }
 
-.halaman2 .kanan:before {
+.halaman2 .contentImg2:before {
   content: "";
   position: absolute;
   top: 0;
@@ -134,17 +144,25 @@
   z-index: -1;
 }
 
-.halaman2 .kiri:hover:before {
+.halaman2 .contentImg1:hover:before {
   -webkit-transform: rotate(20deg);
           transform: rotate(20deg);
   -webkit-box-shadow: 0 2px 20px 20px #C93508;
           box-shadow: 0 2px 20px 20px #C93508;
 }
 
-.halaman2 .kanan:hover:before {
+.halaman2 .contentImg2:hover:before {
   -webkit-transform: rotate(20deg);
           transform: rotate(20deg);
   -webkit-box-shadow: 0 2px 20px 20px #C93508;
           box-shadow: 0 2px 20px 20px #C93508;
+}
+
+.halaman2 .contentImg1:hover {
+  background-blend-mode: normal;
+}
+
+.halaman2 .contentImg2:hover {
+  background-blend-mode: normal;
 }
 /*# sourceMappingURL=halamanKedua.css.map */

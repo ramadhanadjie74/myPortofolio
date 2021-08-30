@@ -108,10 +108,10 @@
         place-items: center;
         .page4-container{
             width: 50%;
-            .mail{
-                left: 46%;
-                top: 55%;
-            }
+            // .mail{
+            //     left: 46%;
+            //     top: 55%;
+            // }
         }
     }
 }
@@ -129,9 +129,9 @@
             // padding: 0;
             margin-left: 25%;
         }
-        .mail{
-            left: 47% !important;
-        }
+        // .mail{
+        //     left: 47% !important;
+        // }
     }
     .halaman2{
         .content-container {
@@ -159,6 +159,28 @@
             }
         }
     }
+}
+
+@media only screen and (min-width: 1200px) {
+    .halaman-utama{
+        background-size: 100%;
+        .konten-utama{
+            .talk{
+                left: 70% !important;
+            }
+        }
+    }
+    .halaman2{
+        .content-container {
+            padding: 9rem;
+        }
+         
+    }
+    // .halaman4{
+    //     .mail{
+    //         left: 48% !important;
+    //     }
+    // }
 }
 
 @media only screen and (max-width: 700px) {
