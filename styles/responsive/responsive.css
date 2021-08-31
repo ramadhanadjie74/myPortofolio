@@ -78,7 +78,7 @@
   .halaman3 .profileImg {
     position: absolute;
     left: 1em;
-    top: 20%;
+    top: 25%;
   }
   .halaman3 .p3-container {
     width: 50%;
@@ -117,7 +117,7 @@
     margin-left: 25%;
   }
   .halaman2 .content-container {
-    padding: 7rem;
+    padding: 0 7rem 0;
   }
 }
 
@@ -144,7 +144,7 @@
     left: 70% !important;
   }
   .halaman2 .content-container {
-    padding: 10rem;
+    padding: 0 10rem 0;
   }
   .halaman3 .mail {
     left: 48% !important;

@@ -2,7 +2,7 @@
 .halaman2 {
   position: relative;
   width: 100%;
-  height: 120vh;
+  height: 100vh;
   top: 0;
   margin-top: 100px;
   scroll-snap-align: start;
@@ -13,11 +13,14 @@
 }
 
 .halaman2 h2 {
+  position: relative;
   text-align: right;
   text-transform: uppercase;
   letter-spacing: 1em;
   font-style: italic;
   font-size: 2rem;
+  top: 10%;
+  right: 2em;
 }
 
 .halaman2 .panah {

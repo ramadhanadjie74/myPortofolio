@@ -12,7 +12,6 @@ html {
   -ms-scroll-snap-type: y mandatory;
       scroll-snap-type: y mandatory;
   overflow-y: scroll;
-  scroll-padding-top: 5rem;
   scroll-behavior: smooth;
 }
 
