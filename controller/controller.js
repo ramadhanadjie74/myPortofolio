@@ -3,6 +3,11 @@ const burgerLogo = document.querySelector('.burger-logo');
 const burgerClose = document.querySelector('.open')
 const burgerMenu = document.querySelector('.burger-menu')
 
+const sections = document.querySelectorAll("section");
+const navLi = document.querySelector(".page-pointer");
+const bar = navLi.querySelectorAll(".line");
+
+
 let open = false;
 
 
@@ -15,11 +20,6 @@ burgerMenu.addEventListener('click', ()=>{
 });
  
 //sec
-
-const sections = document.querySelectorAll("section");
-const navLi = document.querySelector(".page-pointer");
-const bar = navLi.querySelectorAll(".line");
-
 window.addEventListener("scroll", () => {
   let current = "";
   sections.forEach((section) => {

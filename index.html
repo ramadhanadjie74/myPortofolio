@@ -12,6 +12,10 @@
     <link rel="stylesheet" href="styles/responsive/responsive.css">
     <link rel="stylesheet" href="styles/objects-display/objects-display.css">    
     <title>Adjie Fajar Ramadhan</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/ScrollTrigger.min.js"></script>
+
+    <script src="controller/animation.js" defer></script>
 </head>
 <body>
     <div class="container-all">
@@ -44,10 +48,10 @@
         <section id="home" class="halaman1">
             <div class="halaman-utama">
                 <div class="konten-utama">
-                    <h1><span>C</span>reate</h1>
-                    <h2>Unique perspective</h2>
-                    <p>self-taught &lt/programmer&gt</p>
-                    <input type="submit" value="let's talk" class="talk">
+                    <h1 class="createH" ><span>C</span>reate</h1>
+                    <h2 class="anim1" >Unique perspective</h2>
+                    <p class="anim1">self-taught &lt/programmer&gt</p>
+                    <input type="submit" value="let's talk" class="talk anim1Btn">
                 </div>
             </div>
         </section>
@@ -86,24 +90,28 @@
         </div>
     
         <section id="projects" class="halaman2">
-            <h2 class="transisi1">mine.</h2>
+            <h2 class="anim2">mine.</h2>
             <img class="panah" src="asset/images/arrow.png" alt="see more.">
             <div class="content-container">
                 <div class="contents">
-                    <div class="kiri transisi2">
+                    <div class="kiri anim2Kiri">
                         <div class="content1">
                             <img src="asset/images/robotProject.JPG" alt="robot project" class="contentImg1">
                             <a href="#" class="more-info">more info.</a>
-                            <h3>Chiang Rai Rajabhat University - <span>Thailand</span></h3>
-                            <p>as robot programmer.</p>
+                            <div class="hal2Text">
+                                <h3>Chiang Rai Rajabhat University - <span>Thailand</span></h3>
+                                <p>as robot programmer.</p>
+                            </div>
                         </div>
                     </div>
-                    <div class="kanan transisi2">
+                    <div class="kanan anim2Kanan">
                         <div class="content2">
                             <img class="contentImg2" src="asset/images/pertaminaRuVI.jpeg" alt="pertamina">
                             <a href="#" class="more-info">more info.</a>
-                            <h3>PT Pertamina RU VI Balongan - <span>Indramayu</span></h3>
-                            <p>as fullstack programmer.</p>
+                            <div class="hal2Text">
+                                <h3>PT Pertamina RU VI Balongan - <span>Indramayu</span></h3>
+                                <p>as fullstack programmer.</p>
+                            </div>
                         </div>
                     </div>
     
@@ -112,8 +120,8 @@
     
         <section id="about-me" class="halaman3">
             <div class="about-container">
-                <h2 class="transisi 1">who i am.</h2>
-                <div class="profileImg transisi2">
+                <h2 class="anim3">who i am.</h2>
+                <div class="profileImg anim3Up">
                     <svg class='profileFoto' width="296" height="296" viewBox="0 0 296 296" fill="none"
                         xmlns="http://www.w3.org/2000/svg">
                         <circle cx="147.744" cy="147.744" r="147.744" fill="#C93508" />
@@ -131,7 +139,7 @@
                     </svg>
                 </div>
                 <div class="p3-container">
-                    <p class="transisi1">i am a simple, active, and passionate person. who really loves to see things with my own
+                    <p class="anim3Appear">i am a simple, active, and passionate person. who really loves to see things with my own
                     perspective, including solving any problem with my own way.
                     I like to gather all information that a problem needs before executing. With well perspective on a problem,
                     any obstacle will be handle easily, smoothly, and meets or even superpass the target needed.
@@ -144,20 +152,20 @@
         <section id="contact" class="halaman4">
             <div class="page4-container">
                 <div class="page4-title">
-                    <h2 class="transisi2">kuy.</h2>
-                    <h1 class="transisi1">team up!</h1>
+                    <h2 class="anim4">kuy.</h2>
+                    <h1 class="anim4">team up!</h1>
                 </div>
                 
-                <p class=" kontakDes transisi1">it would be a pleasure to <span>take a role on your team</span> </p>
-                <p class="madeUsing transisi2">this website made using</p>
+                <p class=" kontakDes anim4">it would be a pleasure to <span>take a role on your team</span> </p>
+                <p class="madeUsing anim4">this website made using</p>
                 <div class="mail"><a href="mailto:adjiefr1945@gmail.com"><img src="asset/images/emailLogo.png" alt="Mail"></a>
                 </div>
                 <div class="images-list">
                     <ul>
-                        <li><img src="/asset/images/css.png" alt="CSS"></li>
-                        <li><img src="/asset/images/javascript.png" alt="JAVASCRIPT"></li>
-                        <li><img src="/asset/images/html.png" alt="HTML"></li>
-                        <li><img src="/asset/images/figma.png" alt="FIGMA"></li>
+                        <li class="anim4"><img src="/asset/images/css.png" alt="CSS"></li>
+                        <li class="anim4"><img src="/asset/images/javascript.png" alt="JAVASCRIPT"></li>
+                        <li class="anim4"><img src="/asset/images/html.png" alt="HTML"></li>
+                        <li class="anim4"><img src="/asset/images/figma.png" alt="FIGMA"></li>
                     </ul>
                 </div>
             </div>
@@ -165,5 +173,6 @@
         </section>
     </div>
     <script src="controller/controller.js"></script>
+    
 </body>
 </html>

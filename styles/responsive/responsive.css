@@ -119,12 +119,6 @@
   .halaman2 .content-container {
     padding: 7rem;
   }
-  .halaman3 .profileImg {
-    left: 3em;
-  }
-  .halaman3 .p3-container {
-    right: 3em;
-  }
 }
 
 @media only screen and (min-width: 1125px) {
@@ -150,7 +144,10 @@
     left: 70% !important;
   }
   .halaman2 .content-container {
-    padding: 9rem;
+    padding: 10rem;
+  }
+  .halaman3 .mail {
+    left: 48% !important;
   }
 }
 
